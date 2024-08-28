@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/edu/',
-    bare: 'https://104.156.150.3/bear/',
+    bare: 'https://interstellar-olive.vercel.app/ov/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/wk/wk1.js', // handler
