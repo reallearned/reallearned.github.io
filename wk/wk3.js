@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/edu/',
-    bare: 'https://gointerstellar.app/ov/',
+    bare: 'http://66.23.193.126:8080/ov/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/wk/wk1.js', // handler
