@@ -1,5 +1,5 @@
-importScripts('wk2.js');
-importScripts('wk3.js');
+importScripts('/wk/wk2.js');
+importScripts('/wk/wk3.js');
 
 class UVServiceWorker extends EventEmitter {   
     constructor(config = __uv$config) {
