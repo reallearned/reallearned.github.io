@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Lilita One', cursive;
+            overflow: hidden; /* Prevent scrolling during animation */
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Optional: Change background color */
+            color: #fff; /* Optional: Change text color */
+            z-index: 1000; /* Ensure it covers everything */
+        }
+
+        .overlay .container {
+            font-size: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0;
+            animation: fadeInOut 3s ease-in-out forwards;
+        }
+
+        .bottom-center-label {
+            font-size: 48px;
+            margin-top: 10px;
+        }
+
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <title>Animation</title>
+</head>
+<body>
+    <!-- Animation Overlay -->
+    <div class="overlay">
+        <div class="container">
+            <label>Unblocked Games At Your Fingertips</label>
+            <div class="bottom-center-label">Fingertips</div>
+        </div>
+    </div>
+
+    <script>
+        // Redirect back to mainpage.html after the animation
+        setTimeout(function() {
+            window.location.href = 'https://lolpoperman.github.io/beezee-unblocked-games/home.html';
+        }, 3000); // Adjust timing to match the animation duration
+    </script>
+</body>
+</html>
