@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/edu/',
-    bare: 'https://englishclass.photo-frame.com/bare/',
+    bare: 'https://104.156.150.3/bear/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/wk/wk1.js', // handler
